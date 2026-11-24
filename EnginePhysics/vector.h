@@ -2,8 +2,12 @@
 #define VECTOR_H
 
 typedef struct {
-    float x;
-    float y;
+    float x_pos;
+    float y_pos;
+    float x_vel;
+    float y_vel;
+    float x_acc;
+    float y_acc;
 } vector;
 
 void vector_init(vector *vec, float x, float y);
